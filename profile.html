@@ -10,8 +10,8 @@
 <body>
     <header>
         <div class="header__top">
-            <div class="header__column">
-                <i class="fa fa-fighter-jet"></i>
+            <div class="header__column">       
+                    <i class="fa fa-fighter-jet"></i>
                 <i class="fa fa-wifi"></i>
             </div>
 
@@ -29,7 +29,9 @@
         <div class="header__bottom"></div>
 
             <div class="header__column">
-                <i class="fa fa-times fa-lg"></i>
+                <a href="index.html">
+                    <i class="fa fa-times fa-lg"></i>
+                </a>
             </div>
 
             <div class="header__column">
@@ -38,7 +40,34 @@
             <div class="header__column">
                 <i class="fa fa-user fa-lg"></i>
                 </div>
-
     </header>
+
+    <main class="profile">
+        <header class="profile__header">
+            <img src="images/myavatar.jpg">
+            <h3 class="profile__header-title">Django</h3>
+        </header>
+        <input type="text" placeholder="django123@gmail.com">
+        <div class="profile__actions">
+            <div class="profile__action">
+                <span class="profile__action-circle">
+                    <i class="fa fa-comment fa-2x"></i>
+                </span>
+                <span class="profile__action-title">My Chatfoom</span>
+            </div>
+            <div class="profile__action">
+                <span class="profile__action-circle">
+                    <i class="fa fa-pencil fa-2x"></i>
+                </span>
+                <span class="profile__action-title">Edit Profile</span>
+            </div>
+            <div class="profile__action">
+                <span class="profile__action-circle">
+                    <i class="fa"></i>
+                </span>
+                <span class="profile__action-title"></span>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
